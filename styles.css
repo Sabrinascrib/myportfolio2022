@@ -413,3 +413,10 @@ menu {
 .info-paragraph p {
   margin-bottom: 40px;
 }
+
+.footer {
+  color: #5f5f5f;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding: 100px 0px 50px 0px;
+}
