@@ -308,3 +308,108 @@ menu {
 .project-links i {
   font-size: calc(13 / 16 * 1rem);
 }
+
+#contact {
+  padding-top: 200px;
+  margin-bottom: 200px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  color: #aaaaaa;
+}
+
+.contact-form p {
+  width: 360px;
+  font-size: calc(18 / 16 * 1rem);
+  font-family: "Inter", sans-serif;
+  margin-bottom: 40px;
+}
+
+.contact-form a {
+  background-color: var(--green);
+  color: var(--black);
+  padding: 10px 15px;
+  width: 110px;
+  border-radius: 5px;
+  font-size: calc(20 / 16 * 1rem);
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-header-box h1 {
+  font-size: calc(100 / 16 * 1rem);
+}
+
+.contact-header-box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.contact-header-stack-top img {
+  width: 150px;
+  height: 150px;
+  margin: 5px 0px 0px 110px;
+}
+
+.contact-header-stack-top img:nth-child(1) {
+  margin: 15px 0px 0px 175px;
+}
+
+.contact-info a {
+  margin-right: 10px;
+}
+
+.contact-info a:hover {
+  color: var(--green);
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-green {
+  display: flex;
+  flex-direction: column;
+  color: var(--green);
+  font-family: "Bebas Neue", cursive;
+  font-size: calc(25 / 16 * 1rem);
+}
+
+.info-green span {
+  margin-bottom: 30px;
+}
+
+.info-paragraph {
+  display: flex;
+  flex-direction: column;
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+  font-size: calc(20 / 16 * 1rem);
+  font-weight: 200;
+  margin-left: 20px;
+}
+
+.info-paragraph p {
+  margin-bottom: 40px;
+}
