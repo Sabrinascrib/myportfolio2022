@@ -13,3 +13,65 @@
   --white: #ffffff;
   --green: #bfff00;
 }
+/* 
+html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  background-color: var(--black);
+  /* scroll-behavior: smooth; */
+}
+/* 
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: var(--black);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--green);
+  border-radius: 20px;
+} */
+
+h1,
+h2,
+h3 {
+  font-family: "Bebas Neue", cursive;
+  color: var(--white);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+ul,
+li {
+  list-style-type: none;
+}
+
+nav {
+  right: 50px;
+  top: 50px;
+  position: fixed;
+}
+
+menu {
+  display: flex;
+  background: var(--black);
+}
+
+.menu a {
+  writing-mode: vertical-rl;
+  margin-bottom: 20px;
+  font-family: "Bebas Neue", cursive;
+  color: var(--white);
+  transition-duration: 0.3s;
+  font-size: calc(20 / 16 * 1rem);
+}
+
+.menu a:hover {
+  color: var(--green);
+}
