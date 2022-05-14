@@ -420,3 +420,273 @@ menu {
   font-family: "Inter", sans-serif;
   padding: 100px 0px 50px 0px;
 }
+
+@media only screen and (max-width: 1100px) {
+  .socials i {
+    font-size: calc(23 / 16 * 1rem);
+  }
+
+  #home h1 {
+    font-size: calc(150 / 16 * 1rem);
+  }
+  .name {
+    width: 390px;
+  }
+
+  .container {
+    margin-right: 200px;
+    margin-top: 300px;
+  }
+
+  .stack-top {
+    margin: 70px 0px 0px 210px;
+  }
+
+  .stack-top img {
+    width: 250px;
+  }
+
+  #about {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    padding-top: 0px;
+
+    margin-top: 70px;
+    padding-top: 70px;
+  }
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-me img {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .about-info {
+    margin-left: 0px;
+  }
+  .about-header-stack-top img {
+    width: 140px;
+    height: 140px;
+    margin: 20px 0px 0px 120px;
+  }
+  .about-header-box {
+    width: 200px;
+  }
+  .about-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about-header-stack-top {
+    width: 220px;
+  }
+  .about-info {
+    max-width: 360px;
+  }
+
+  #projects {
+    margin-top: 150px;
+    padding-top: 150px;
+  }
+
+  .project {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .project h3 {
+    margin-top: 30px;
+  }
+
+  .project:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .project-links {
+    justify-content: center;
+  }
+
+  #projects {
+    margin-top: 150px;
+    padding-top: 150px;
+  }
+
+  #contact {
+    padding-top: 100px;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-form {
+    margin-bottom: 150px;
+  }
+  .project {
+    width: 430px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    right: 20px;
+    top: 20px;
+  }
+  .socials {
+    left: 20px;
+    bottom: 180px;
+  }
+
+  #home h1 {
+    font-size: calc(100 / 16 * 1rem);
+  }
+  .name {
+    width: 280px;
+  }
+  .stack-top {
+    margin: 40px 0px 0px 165px;
+  }
+
+  .stack-top img {
+    width: 170px;
+  }
+
+  .container {
+    margin-right: 130px;
+    margin-top: 210px;
+  }
+
+  .green-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 0px 0px 0px;
+    margin-right: 7px;
+  }
+
+  .container-info {
+    font-size: calc(15 / 16 * 1rem);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: var(--white);
+  }
+
+  .container-info :nth-child(1) {
+    margin: 1px 0px;
+  }
+
+  .about-me img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about-info {
+    max-width: 250px;
+  }
+
+  .about-header-box h1 {
+    font-size: calc(90 / 16 * 1rem);
+  }
+
+  .about-header-stack-top img {
+    width: 130px;
+    height: 130px;
+  }
+
+  #projects {
+    margin-top: 230px;
+    padding-top: 175px;
+  }
+
+  .projects {
+    margin-top: 100px;
+  }
+
+  .projects-header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-header-box h1 {
+    font-size: calc(90 / 16 * 1rem);
+  }
+
+  .projects-header-box {
+    width: 300px;
+  }
+
+  .projects-header-stack-top img {
+    width: 190px;
+    height: 190px;
+    margin: -10px 0px 0px 190px;
+  }
+
+  .project {
+    width: 300px;
+  }
+
+  .project-info {
+    width: 250px;
+  }
+
+  .project-info h3 {
+    font-size: calc(35 / 16 * 1rem);
+    margin-bottom: 20px;
+  }
+
+  .project video {
+    width: 300px;
+  }
+
+  #contact {
+    padding-top: 200px;
+    margin-bottom: 200px;
+  }
+
+  .contact-form p {
+    width: 300px;
+    font-size: calc(17 / 16 * 1rem);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .contact-form a {
+    padding: 8px 13px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: calc(19 / 16 * 1rem);
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+  }
+
+  .contact-header {
+    width: 300px;
+  }
+
+  .contact-header-box h1 {
+    font-size: calc(90 / 16 * 1rem);
+  }
+
+  .contact-header-stack-top img {
+    width: 140px;
+    height: 140px;
+    margin: 0px 0px 0px 110px;
+  }
+
+  .info-green {
+    font-size: calc(23 / 16 * 1rem);
+  }
+
+  .info-paragraph {
+    font-size: calc(17 / 16 * 1rem);
+  }
+}
