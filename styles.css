@@ -101,7 +101,7 @@ menu {
 
 .socials i:hover {
   color: var(--green);
-  transform: translateY(-2px);
+
   transition-duration: 0.3s;
 }
 
@@ -342,6 +342,12 @@ menu {
   font-size: calc(20 / 16 * 1rem);
   font-family: "Bebas Neue", cursive;
   text-align: center;
+  transition-duration: 0.2s;
+}
+
+.contact-form a:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
 }
 
 .contact-info {
