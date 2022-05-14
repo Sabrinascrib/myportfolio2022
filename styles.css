@@ -13,16 +13,16 @@
   --white: #ffffff;
   --green: #bfff00;
 }
-/* 
+
 html {
   scroll-behavior: smooth;
-} */
+}
 
 body {
   background-color: var(--black);
-  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
 }
-/* 
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -34,7 +34,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: var(--green);
   border-radius: 20px;
-} */
+}
 
 h1,
 h2,
