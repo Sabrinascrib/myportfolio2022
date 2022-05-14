@@ -75,3 +75,32 @@ menu {
 .menu a:hover {
   color: var(--green);
 }
+
+.socials {
+  z-index: 10;
+  height: 20px;
+  width: 160px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  left: 50px;
+  bottom: 200px;
+  position: fixed;
+}
+
+.socials a {
+  margin-bottom: 50px;
+}
+
+.socials i {
+  color: var(--white);
+  font-size: calc(25 / 16 * 1rem);
+  transition-duration: 0.5s;
+}
+
+.socials i:hover {
+  color: var(--green);
+  transform: translateY(-2px);
+  transition-duration: 0.3s;
+}
