@@ -210,6 +210,7 @@ li {
   font-family: "Inter", sans-serif;
   color: #aaaaaa;
   font-size: calc(16 / 16 * 1rem);
+  font-weight: 500;
 }
 
 .about-header {
@@ -305,6 +306,7 @@ li {
   color: #aaaa;
   font-family: "Inter", sans-serif;
   margin-bottom: 20px;
+  font-weight: 500;
 }
 
 .project video {
@@ -354,6 +356,7 @@ li {
   font-size: calc(18 / 16 * 1rem);
   font-family: "Inter", sans-serif;
   margin-bottom: 40px;
+  font-weight: 500;
 }
 
 .contact-form a {
@@ -441,6 +444,7 @@ li {
 
 .info-paragraph p {
   margin-bottom: 40px;
+  font-weight: 500;
 }
 
 .footer {
