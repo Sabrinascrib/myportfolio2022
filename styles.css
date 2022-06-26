@@ -87,7 +87,7 @@ li {
 }
 
 .nav-link {
-  font-size: 1.6rem;
+  font-size: calc(26 / 16 * 1rem);
   font-weight: 400;
   color: var(--white);
   font-family: "Bebas Neue", sans-serif;
@@ -458,6 +458,10 @@ li {
   .navbar {
     right: 20px;
     top: 20px;
+  }
+
+  .nav-link {
+    font-size: calc(23 / 16 * 1rem);
   }
 
   .socials svg {
