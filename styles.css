@@ -116,13 +116,13 @@ li {
   margin-bottom: 50px;
 }
 
-.socials i {
+.socials svg {
   color: var(--white);
   font-size: calc(25 / 16 * 1rem);
   transition-duration: 0.5s;
 }
 
-.socials i:hover {
+.socials svg :hover {
   color: var(--green);
 
   transition-duration: 0.3s;
@@ -330,7 +330,7 @@ li {
   color: var(--green);
 }
 
-.project-links i {
+.project-links span {
   font-size: calc(13 / 16 * 1rem);
 }
 
@@ -460,7 +460,7 @@ li {
     top: 20px;
   }
 
-  .socials i {
+  .socials svg {
     font-size: calc(23 / 16 * 1rem);
   }
 
