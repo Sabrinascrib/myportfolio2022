@@ -120,12 +120,14 @@ li {
   color: var(--white);
   font-size: calc(25 / 16 * 1rem);
   transition-duration: 0.5s;
+  transition: 0.2s;
 }
 
-.socials svg :hover {
+.socials svg:hover {
   color: var(--green);
-
-  transition-duration: 0.3s;
+  position: relative;
+  top: -5px;
+  transition: 0.2s;
 }
 
 #home {
